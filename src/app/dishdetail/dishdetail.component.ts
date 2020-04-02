@@ -8,13 +8,9 @@ import { Dish } from '../shared/dish';
   styleUrls: ['./dishdetail.component.scss']
 })
 export class DishdetailComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
   @Input()
   dish: Dish;
 
+  constructor() { }
+  ngOnInit(): void { }
 }
