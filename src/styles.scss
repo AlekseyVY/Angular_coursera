@@ -2,7 +2,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 @import 'variables';
-@import '../node_modules/font-awesome/scss/font-awesome.scss';
+@import '../node_modules/font-awesome/scss/font-awesome';
 //some basic resets
 
 
@@ -20,7 +20,7 @@ $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
 
 @mixin zero-margin($pad-up-down, $pad-left-right) {
-  margin: 0px auto;
+  margin: 0 auto;
   padding: $pad-up-down $pad-left-right;
 }
 
